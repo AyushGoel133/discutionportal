@@ -151,7 +151,7 @@ function createQueCont(sub, que, index, date) {
 
 function createqueryForm(sub, que, index) {
   let quesresp = document.createElement("div");
-  quesresp.className = "h-[100%] w-[60%] ml-[40%] p-4";
+  quesresp.className = "h-[100%] w-[60%] ml-[40%] p-4 border-l";
   quesresp.dataset.index = index;
 
   let head = document.createElement("h1");
@@ -440,7 +440,7 @@ function createqueryForm(sub, que, index) {
 function createRightDiv() {
   let rightdiv = document.createElement("div");
   rightdiv.id = "rightDiv";
-  rightdiv.className = "h-[760px] w-[60%] ml-[40%] p-8 border-l bg-red";
+  rightdiv.className = "h-[760px] w-[60%] ml-[40%] p-8 border-l";
 
   let bigtext = document.createElement("h1");
   bigtext.innerText = "Welcome to Discussion Portal !";
