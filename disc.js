@@ -440,7 +440,7 @@ function createqueryForm(sub, que, index) {
 function createRightDiv() {
   let rightdiv = document.createElement("div");
   rightdiv.id = "rightDiv";
-  rightdiv.className = "h-[760px] w-[60%] ml-[40%] p-8 border-l";
+  rightdiv.className = "h-[760px] w-[60%] ml-[40%] p-8 border-l bg-red";
 
   let bigtext = document.createElement("h1");
   bigtext.innerText = "Welcome to Discussion Portal !";
